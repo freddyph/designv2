@@ -1,6 +1,16 @@
 ---
 titleBreadcrumb: Home
+views:
+    byline:
+        region: main
+        template: anax/v2/block/default
+        sort: 2
+        data:
+            meta:
+                type: single
+                route: block/author-byline
 ...
+
 A website using Anax Flat
 ===============================
 <img style="display: block; float: left; height: 60px; width: auto; margin-right: 30px; margin-border:20px; border-radius: 2px;">

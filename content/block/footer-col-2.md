@@ -1,3 +1,5 @@
 #### Footer col 2
 
-Med brödtext i ett stycke som säger något trevligt om just detta block, eller kanske en lista av länkar.
+Mitt eget favoritrecept just nu är en variant på General Tso:
+
+[Enkelt recept på General Tso](https://dinnerthendessert.com/general-tsos-chicken/)

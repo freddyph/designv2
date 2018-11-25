@@ -1,3 +1,5 @@
 #### Footer col 1
 
-Med brödtext i ett stycke som säger något trevligt om just detta block, eller kanske en lista av länkar.
+Att laga mat är gott. Prova något vegetariskt/veganskt nästa gång:
+
+[Jävligt gott](https://javligtgott.se/)
