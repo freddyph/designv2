@@ -4290,7 +4290,7 @@ a.rm-button.rm-clicked .rm-button-face-2 {
      */
 }
 .hgrid .inner-wrap {
-  background-image: url("../img/magic-number-22px.png");
+  background-image: url("../img/magic-number-24px.png");
 }
 /**
  * Base style to affect HTML elements on a general scale.
@@ -4307,7 +4307,7 @@ body {
   padding: 0;
   color: #333;
   background-color: purple;
-  font: 16px/1.375 "sans-serif";
+  font: 16px/1.5 "sans-serif";
 }
 h1,
 h2,
@@ -4316,8 +4316,8 @@ h4,
 h5,
 h6 {
   font-family: "serif";
-  margin-top: 22px;
-  margin-bottom: 22px;
+  margin-top: 24px;
+  margin-bottom: 24px;
 }
 h1 img,
 h2 img,
@@ -4329,10 +4329,10 @@ h6 img {
 }
 h1 {
   font-size: 2.375em;
-  line-height: 1.15789474;
+  line-height: 1.26315789;
   font-weight: normal;
   border-bottom: 1px solid #666;
-  margin-bottom: 21px;
+  margin-bottom: 23px;
 }
 h1 ~ h1,
 h1 ~ h2,
@@ -4340,59 +4340,59 @@ h1 ~ h3,
 h1 ~ h4,
 h1 ~ h5,
 h1 ~ h6 {
-  margin-top: 44px;
+  margin-top: 48px;
 }
 h1 + h2 {
-  margin-top: 22px;
+  margin-top: 24px;
 }
 h2 {
   font-size: 1.875em;
-  line-height: 1.46666667;
+  line-height: 1.6;
   font-weight: normal;
-  margin-bottom: 21px;
+  margin-bottom: 23px;
   border-bottom: 1px solid #CCC;
 }
 h2 + h3 {
-  margin-top: 22px;
+  margin-top: 24px;
 }
 h3 {
   font-size: 1.75em;
-  line-height: 1.57142857;
+  line-height: 1.71428571;
   font-weight: normal;
-  margin-bottom: 21px;
+  margin-bottom: 23px;
   border-bottom: 1px solid #EEE;
 }
 h3 + h4 {
-  margin-top: 22px;
+  margin-top: 24px;
 }
 h4 {
   font-size: 1.5em;
-  line-height: 1.83333333;
+  line-height: 1;
   font-weight: normal;
-  margin-bottom: 21px;
+  margin-bottom: 23px;
   border-bottom: 1px solid #EEE;
 }
 h4 + h5 {
-  margin-top: 22px;
+  margin-top: 24px;
 }
 h5 {
   font-size: 1.25em;
-  line-height: 1.1;
-  margin-bottom: 21px;
+  line-height: 1.2;
+  margin-bottom: 23px;
   border-bottom: 1px solid #EEE;
 }
 h5 + h6 {
-  margin-top: 22px;
+  margin-top: 24px;
 }
 h6 {
   font-size: 1.25em;
-  line-height: 1.1;
-  margin-bottom: 21px;
+  line-height: 1.2;
+  margin-bottom: 23px;
   border-bottom: 1px solid #EEE;
 }
 p {
-  margin-top: 22px;
-  margin-bottom: 22px;
+  margin-top: 24px;
+  margin-bottom: 24px;
 }
 small,
 .small,
@@ -4433,7 +4433,7 @@ blockquote {
   border-left: 4px solid #eee;
   padding-left: 1em;
   margin-left: 0;
-  margin-bottom: 22px;
+  margin-bottom: 24px;
 }
 pre,
 code,
@@ -4459,7 +4459,7 @@ pre code {
   white-space: pre;
 }
 pre {
-  margin-bottom: 22px;
+  margin-bottom: 24px;
 }
 pre code {
   display: block;
@@ -4469,21 +4469,21 @@ div.code,
 pre code {
   border-top: 1px solid #ccc;
   border-bottom: 1px solid #ccc;
-  margin-bottom: 21px;
-  padding-top: 11px;
-  padding-bottom: 11px;
+  margin-bottom: 23px;
+  padding-top: 12px;
+  padding-bottom: 12px;
   padding-left: 0.5em;
   background-color: #eee;
 }
 ul,
 ol {
-  margin-bottom: 22px;
+  margin-bottom: 24px;
   padding-left: 1.5em;
 }
 ul p,
 ol p {
-  margin-top: 11px;
-  margin-bottom: 11px;
+  margin-top: 12px;
+  margin-bottom: 12px;
 }
 ul ul,
 ol ul,
@@ -4498,7 +4498,7 @@ ol {
   list-style-type: decimal;
 }
 dl {
-  margin-bottom: 22px;
+  margin-bottom: 24px;
 }
 dl.horizontal dt {
   clear: left;
@@ -4516,7 +4516,7 @@ article table,
 .table,
 .table1,
 .table2 {
-  margin-bottom: 22px;
+  margin-bottom: 24px;
 }
 table.full-width,
 article .table,
@@ -4537,7 +4537,7 @@ article table caption,
 .table caption,
 .table2 caption {
   font-size: 0.875em;
-  line-height: 1.57142857;
+  line-height: 1.71428571;
   text-align: left;
   font-style: italic;
 }
@@ -4559,7 +4559,7 @@ article table th,
 article table td,
 .table td,
 .table2 td {
-  padding: 5.5px;
+  padding: 6px;
 }
 article table tr,
 .table tr,
@@ -4583,8 +4583,8 @@ hr {
   border: 0;
   height: 1px;
   background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0));
-  margin-top: 32px;
-  margin-bottom: 33px;
+  margin-top: 35px;
+  margin-bottom: 36px;
 }
 hr::after {
   content: "§";
@@ -4654,7 +4654,7 @@ img {
 .regions .region-footer-column-1,
 .regions .region-footer-column-2,
 .regions .region-footer-column-3 {
-  margin-bottom: 44px;
+  margin-bottom: 48px;
 }
 .inner-wrap {
   margin-right: auto;
@@ -4939,3 +4939,6 @@ img {
 /**
  * My own settings, not currently in their own module.
  */
+@font FamilyHeadings: "Times New Roman", Times, serif //"serif";
+@font FamilyBody:     Calibri, "Gill Sans", "Gill Sans MT", "Myriad Pro", Myriad, "Liberation Sans", "Nimbus Sans L", Tahoma, Geneva, "Helvetica Neue", Helvetica, Arial, sans-serif //"sans-serif";
+@font FamilyCode:     "Courier New", Courier, monospace //"monospace";
