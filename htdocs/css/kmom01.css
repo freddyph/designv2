@@ -5,16 +5,6 @@
  * to style up the website so it is useable.
  */
 
-/* Hide submenu, leave this to kmom02 */
-.rm-desktop ul {
-    display: none;
-}
-
-/* Hide responsive/mobile menu, leave this to kmom02 */
-.rm-navbar-max {
-    display: none;
-}
-
 html {
     background-color: yellow;
 }
@@ -44,9 +34,9 @@ body {
   text-decoration: none;
 }
 
-.site-logo {
+/*.site-logo {
   display: none;
-}
+}*/
 
 .site-logo-text a {
   display: flex;
@@ -84,8 +74,4 @@ body {
     height: 48px;
     margin-bottom: 12px;
     width: 33%;
-}
-
-div {
-    display: block;
 }

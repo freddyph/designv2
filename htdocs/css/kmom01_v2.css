@@ -1,0 +1,173 @@
+/*!
+ * LESS version of the stylesheet for design kmom01.
+ *
+ * This stylesheet is for the design course and kmom01. Its intention is to
+ * use kmom01.css and lessify the style and use this as a wrapper for the new
+ * style.
+ */
+/**
+ * Internal self contained modules, save in directory module/.
+ */
+/**
+ * Style for the stylechooser.
+ */
+/**
+ * Variables
+ */
+/**
+ * Style
+ */
+/**
+ * Base style to affect HTML elements on a general scale.
+ */
+/**
+ * Base style to affect HTML elements on a general scale.
+ */
+html {
+  overflow-y: scroll;
+  background-color: yellow;
+}
+body {
+  margin: 0;
+  padding: 0;
+  color: #333;
+  background-color: purple;
+  font: 100.01%/1 serif;
+}
+img {
+  max-width: 100%;
+}
+/**
+ * Layout style for general structure of header, navbar, main, footer
+ * and other regions of the page including route specific styles.
+ */
+/**
+ * Layout style for general structure of header, navbar, main, footer
+ * and other regions of the page including route specific styles.
+ */
+/**
+ * Variables
+ */
+/**
+ * General layout
+ */
+/**
+  * Header layout
+  */
+.outer-wrap-header {
+  height: 48px;
+  margin-bottom: 12px;
+}
+.inner-wrap.inner-wrap-header {
+  margin-right: auto;
+  margin-left: auto;
+  max-width: 100%;
+}
+.region-header-col-1 {
+  display: inline;
+  float: left;
+  width: 20%;
+  margin-left: 0.5%;
+  margin-right: 0.5%;
+}
+.site-logo {
+  display: none;
+}
+.region-header-col-2 {
+  display: inline;
+  float: left;
+  width: 69%;
+  margin-left: 0.5%;
+  margin-right: 0.5%;
+  margin-top: 10px;
+}
+.region-header-col-3 {
+  display: inline;
+  float: left;
+  width: 20%;
+  margin-left: 0.5%;
+  margin-right: 0.5%;
+}
+/**
+ * navbar layout
+ */
+.rm-navbar {
+  text-align: center;
+  font-size: 1.5em;
+  line-height: 0;
+  position: relative;
+}
+/* Hide submenu, leave this to kmom02 */
+.rm-desktop ul {
+  display: inline-block;
+}
+/* Hide responsive/mobile menu, leave this to kmom02 */
+.rm-navbar-max {
+  display: inline-block;
+}
+/**
+ * main layout
+ */
+/**
+  * footer layout
+  */
+.footer-column {
+  width: 33%;
+  float: left;
+}
+/**
+ * Layout for responsive style through media queries.
+ */
+@media screen and (max-width: 800px) {
+  .site-logo {
+    display: none;
+  }
+}
+/**
+ * navbar
+ */
+@media screen and (max-width: 960px) {
+  .rm-desktop a {
+    padding-left: 0.5em;
+    padding-right: 0.5em;
+  }
+}
+@media screen and (max-width: 500px) {
+  .rm-desktop {
+    display: none;
+  }
+}
+/**
+ * Show off the regions used in the website, to ease styling.
+ */
+.regions .outer-wrap {
+  background-color: green;
+  border: 1px solid #e3b774;
+}
+.regions .inner-wrap {
+  background-color: aliceblue;
+  border: 1px solid #d995b4;
+}
+.regions .region-header-col-1,
+.regions .region-header-col-2,
+.regions .region-header-col-3,
+.regions .region-flash,
+.regions .region-breadcrumb,
+.regions .region-flash-message,
+.regions .region-columns-above,
+.regions .region-main,
+.regions .region-after-main,
+.regions .region-columns-below,
+.regions .region-sidebar-left,
+.regions .region-sidebar-right,
+.regions .region-footer,
+.regions .region-footer-column-1,
+.regions .region-footer-column-2,
+.regions .region-footer-column-3 {
+  background-color: green;
+  border: 1px solid aliceblue;
+  color: #111;
+}
+/**
+ * My own settings, not currently in their own module.
+ */
