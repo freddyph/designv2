@@ -1,7 +1,7 @@
 /*!
- * Stylesheet for design kmom05.
+ * Stylesheet for kmom06-designprinciper.
  *
- * This stylesheet is for the design course and kmom05 where we use LESS.
+ * This stylesheet is for the design course and kmom06 where we use LESS.
  */
 
  /**
@@ -88,12 +88,56 @@ Importing Figure
  @magicNumber:  24px;  // 22px
  @fontSizeBody: 16px;
 
- // Kmom05 font-families
+ // Kmom06 font-families
  @fontFamilyHeadings: @fontFamilyTimesNewRoman //"serif";
  @fontFamilyBody:     @fontFamilyCalibri //"sans-serif";
  @fontFamilyCode:     @fontFamilyCourier //"monospace";
 
- // Kmom05 colors
- @bgColorHtml: white;
+ // Kmom06 colors
+ @bgColorHtml: black;
  @bgColorBody: grey;
  @colorBody: white;
+
+ body {
+     background: url(../img/blogg/bird.jpg) no-repeat center center fixed;
+     background-size: cover;
+     font-size: 100%;
+     line-height: 1.5;
+ }
+
+ .outer-wrap-header {
+    background: black;
+    opacity: 0.6;
+    //border-style: groove;
+    margin-bottom: 2em;
+    color: white;
+ }
+
+ .inner-wrap {
+     border-style: outset;
+ }
+
+ .region-footer {
+     margin-left: 2em;
+ }
+ .inner-wrap-footer {
+     background-image: grey; //linear-gradient(to right, grey , white);
+     //opacity: 0.6;
+     margin-top: 2em;
+     color: black;
+ }
+
+
+ .flashmessage.info {
+     margin-left: 2em;
+     margin-top: 1em;
+     text-align: center;
+ }
+
+ .rm-desktop li a {
+    //background-color: white;
+ }
+
+ h1 {
+    border-bottom: 2px dashed #666;
+ }

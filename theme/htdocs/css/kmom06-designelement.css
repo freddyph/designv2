@@ -1,7 +1,7 @@
 /*!
- * Stylesheet for design kmom05.
+ * Stylesheet for kmom06-designelement.
  *
- * This stylesheet is for the design course and kmom05 where we use LESS.
+ * This stylesheet is for the design course and kmom06 where we use LESS.
  */
 /**
   * Import mixins.
@@ -4300,12 +4300,12 @@ a.rm-button.rm-clicked .rm-button-face-2 {
  */
 html {
   overflow-y: scroll;
-  background-color: white;
+  background-color: black;
 }
 body {
   margin: 0;
   padding: 0;
-  color: white;
+  color: black;
   background-color: grey;
   font: 16px/1.5 "sans-serif";
 }
@@ -5071,3 +5071,36 @@ figure.figure-codepen {
 @font FamilyHeadings: "Times New Roman", Times, serif //"serif";
 @font FamilyBody:     Calibri, "Gill Sans", "Gill Sans MT", "Myriad Pro", Myriad, "Liberation Sans", "Nimbus Sans L", Tahoma, Geneva, "Helvetica Neue", Helvetica, Arial, sans-serif //"sans-serif";
 @font FamilyCode:     "Courier New", Courier, monospace //"monospace";
+body {
+  background: url(../img/blogg/turtle.jpg) no-repeat center center fixed;
+  background-size: cover;
+  font-size: 100%;
+  line-height: 1.5;
+}
+.outer-wrap-header {
+  background: aliceblue;
+  opacity: 0.6;
+  border-style: groove;
+  margin-bottom: 2em;
+}
+.inner-wrap {
+  border-style: outset;
+}
+.region-footer {
+  margin-left: 2em;
+}
+.inner-wrap-footer {
+  background-image: linear-gradient(to right, lightgreen, aliceblue);
+  opacity: 0.6;
+}
+.flashmessage.info {
+  margin-left: 2em;
+  margin-top: 1em;
+  text-align: center;
+}
+.rm-desktop li a {
+  background-color: aliceblue;
+}
+h1 {
+  border-bottom: 2px dashed #666;
+}
