@@ -84,6 +84,11 @@ return [
                         "url" => "rapport/designprinciper",
                         "title" => "Rapport om Tema designprinciper.",
                     ],
+                    [
+                        "text" => "Webbplatsdesign",
+                        "url" => "rapport/webbplatsdesign",
+                        "title" => "Rapport om webbplatsdesign.",
+                    ],
                 ],
             ],
         ],
